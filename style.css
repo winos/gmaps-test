@@ -1,0 +1,70 @@
+/*** general --*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:#191919;
+  font-size: 12pt;
+  font-family:"open sans", Arial, Helvetica;
+}
+
+header, #main, footer {
+  width: 100%;
+  max-width:960px;
+  margin: 0 auto;
+}
+
+a {
+  color: #bf2222;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/** Header */
+header {
+  margin-top:10px;
+  margin-bottom:10px;
+  overflow:hidden;
+  width: 85%;
+}
+
+header #logo {
+  width: 40%;
+  float:left;
+}
+
+header #logo p {
+  font-family: 'Raleway',  helvetica, arial, sans-serif;
+  font-size: 4rem;
+  font-weight: 100;
+  text-align: left;
+  color: white;
+}
+
+header #logo span  {
+  text-align: center;
+  width: 100%;
+  display: block;
+  position: relative;
+  font-family: 'Raleway', arial, sans-serif;
+  font-weight: 400;
+  right: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+
+/** Main */
+
+#main {
+  overflow: hidden;
+}
+
+/** Slide Show */
+
+#map { height: 500px;}
