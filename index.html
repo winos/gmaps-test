@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>Test Gmaps</title>
+    <title>Skyguard</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,300,700,500' rel='stylesheet' type='text/css'>
@@ -11,19 +11,16 @@
   <body>
     <header>
       <div id="logo">
-        <p>Test Gmaps</p>
-        <span>winos</span>
+        <p>Skyguard</p>
+        <span>tracking</span>
       </div>
     </header>
     <!-- section:main-->
     <section id="main">
-      <input type="text" name="origin" id="origin" value="chicago, il" placeholder="origin"/>
-      <input type="text" name="destination" id="destination" value="st louis, mo" placeholder="destination"/>
-      <button type="button" id="calculateBtn">trace route</button>
       <div id="map"></div>
     </section>
     <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKzL9He2GgCpcAELUBJm9OgwU7GkM5N2o&callback=initMap&libraries=geometry">
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKzL9He2GgCpcAELUBJm9OgwU7GkM5N2o&callback=initMap&libraries=geometry,drawing">
     </script>
   </body>
 </html>
